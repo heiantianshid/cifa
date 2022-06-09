@@ -90,11 +90,11 @@
   * Intel(R) Xeon(R) Platinum 8255C CPU @ 2.50GHz
   * 内存45GB
 * 使用方法
-  * 修改命令台项目Trainer下Utils.cs文件中的模型权重保存路径
+  * 修改命令台项目Trainer01下Utils.cs文件中的模型权重保存路径
     ```Csharp
     public static string save_path = "E:/vsProject/Trainer/";
     ```
-  * 根据硬件设备显存适当修改命令台项目Trainer下Utils.cs文件中的batch_size防止显存爆炸
+  * 根据硬件设备显存适当修改命令台项目Trainer01下Utils.cs文件中的batch_size防止显存爆炸
     ```Csharp
     public static int batch_size = 128;
     ```
