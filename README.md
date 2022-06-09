@@ -58,6 +58,7 @@
   * Visual Studio 2019
   * Windows10操作系统
 * 使用方法
+  * 打开WinForm项目MyEnv02
   * 通过TeamGame类获取环境
     ```Csharp
     TeamGame env = new TeamGame();
